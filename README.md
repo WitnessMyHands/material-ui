@@ -1,4 +1,4 @@
-### Starter Project for the Material UI playlist
+### Front-End Code for Project 3
 
 Download the code & run **npm install** to install dependencies before starting the app.
 
