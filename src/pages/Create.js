@@ -11,6 +11,8 @@ import Radio from '@material-ui/core/Radio'
 import RadioGroup from '@material-ui/core/RadioGroup';
 import { FormControl, FormControlLabel, FormLabel } from '@material-ui/core';
 
+import { DropzoneArea } from 'material-ui-dropzone';
+
 import { makeStyles } from '@material-ui/core' // Function Importing CSS from Core Library
 
 const useStyles = makeStyles({
@@ -59,7 +61,7 @@ export default function Create() {
           component='h2'
           gutterBottom
         >
-          New Trip Card
+          
         </Typography>
 
         <form noValidate autoComplete='off' onSubmit={handleSubmit}>
@@ -98,6 +100,15 @@ export default function Create() {
           <FormControlLabel value="vacation"control={<Radio />} label="Vacation Trip" />
         </RadioGroup>
         </FormControl>
+        {/*Upload Dropzone*/}
+        <DropzoneArea
+            acceptedFiles={['image/*']}
+            // onChange={handleFileChange}
+            showFileNames
+            dropzoneText="Drag and drop a file here or click"
+            showAlerts={false}
+            filesLimit={20}
+        />
         {/*Form Button*/}
         <Button
           type='submit'

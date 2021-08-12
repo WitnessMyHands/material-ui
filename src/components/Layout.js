@@ -85,7 +85,7 @@ export default function Layout({ children }) {
                     <Typography>
                         Avatar
                     </Typography>
-                    <Avatar src='/mario-av.png' className={classes.avatar}/>
+                    <Avatar src='/anna.jpg' className={classes.avatar}/>
                 </Toolbar>
             </AppBar>
             {/* Side Bar */}
