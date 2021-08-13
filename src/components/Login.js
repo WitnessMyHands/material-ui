@@ -72,7 +72,7 @@ export default function SignInSide() {
             component='h2'
             gutterBottom
           >
-            Guilt Trip Logo
+            Guilt Trip
           </Typography>
 
           <Avatar className={classes.avatar}>

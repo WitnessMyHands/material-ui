@@ -83,7 +83,7 @@ export default function Layout({ children }) {
                         Today is the { format(new Date(), 'do MMMM Y') }
                     </Typography>
                     <Typography>
-                        Avatar
+                        Anna
                     </Typography>
                     <Avatar src='/anna.jpg' className={classes.avatar}/>
                 </Toolbar>
@@ -97,7 +97,7 @@ export default function Layout({ children }) {
             >
                 <div>
                     <Typography variant='h5' className={classes.title}>
-                        Guilt Trip Logo
+                        Guilt Trip
                     </Typography>
                 </div>
             {/* Side Bar List Items */}
